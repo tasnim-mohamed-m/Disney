@@ -1,0 +1,412 @@
+/* ==========================================================================
+   ===== GENERAL STYLES =====
+   ========================================================================== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Dancing Script", cursive;
+    overflow-x: hidden; /* منع حدوث أي سكرول أفقي خطأ */
+} 
+.home {
+    height: 100vh;
+    width: 100%;
+}
+.ho {
+    height: 100vh;
+    padding: 20px 70px;
+    background-color: #28367ee6;
+    color: white;
+}
+
+/* ==========================================================================
+   ===== HEADER & NAVIGATION =====
+   ========================================================================== */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ho .head img {
+    width: 220px;
+    height: 166px;
+}
+.con {
+    padding-right: 50px;
+}
+.con ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    list-style: none;
+} 
+.con ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    font-size: 26px;
+    display: inline-block;
+    transition: all 0.5s 0.1s ease;
+}
+.con ul li a:hover {
+    border-bottom: 0.3px solid white;
+    transform: scale(1.07);
+}
+
+/* ==========================================================================
+   ===== HERO SECTION (WELCOME) =====
+   ========================================================================== */
+.tx {
+    display: flex;
+    margin-top: 70px; 
+    gap: 50px;
+}
+.tx p {
+    font-family: "Bricolage Grotesque", sans-serif;
+    margin-top: 50px;
+    padding: 5px 113px 0px 65px;
+    letter-spacing: 1.0px;
+    line-height: 26px;
+    width: 800px;
+}
+.tx p button {
+    width: 104px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 16px;
+    margin: 12px 0 0 4px;
+    transition: all 0.5s 0.1s ease;
+    cursor: pointer;
+}
+.tx p button:hover {
+    color: white;
+    background-color: #28367ee6;
+}
+.tx .m img {
+    border-radius: 15px;
+    height: 342px;
+    width: 413px;
+    margin-right: 55px;
+}
+.ii {
+    width: 663px;
+    height: 4px;
+    margin: 94px 0 0 355px;
+    background-image: linear-gradient(to right, #518ebf40,#03a9f459, #518ebf40);
+}
+
+/* ==========================================================================
+   ===== CARTOONS SECTION =====
+   ========================================================================== */
+.ca {
+    height: auto;
+    min-height: 1270px;
+    padding: 20px;
+    background-color: #303a70;
+    color: white;
+}
+.ca .a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    background-color: #00bcd405;
+}
+.ca .a h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 35px;
+}
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b p {
+    font-family: "Bricolage Grotesque", sans-serif;
+    padding-top: 35px;
+    color: #e4e9ec61;
+    padding-bottom: 47px;
+}
+.c {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 72px;
+} 
+.d {
+    padding-left: 35px;
+    padding-top: 19px;
+}
+.c .d img { 
+    width: 385px;
+    height: 230px;
+    border-radius: 22px;
+    transition: all 0.5s 0.1s ease;
+}
+.c .d img:hover {
+    transform: scale(1.04);
+}
+.c p {
+    width: 313px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.d a {
+    color: #1fb9ff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.5s 0.1s ease;
+    padding: 4px 5px 0 15px;
+}
+.d a:hover {
+    transform: scale(1.09);
+}
+.d i {
+    transition: all 0.5s 0.1s ease;
+    cursor: pointer;
+}
+.d i:hover {
+    transform: scale(1.09);
+    color: red;
+}
+.oo {
+    margin-left: 0;
+}
+
+/* ==========================================================================
+   ===== NEW RELEASES SECTION =====
+   ========================================================================== */
+.nr {
+    height: auto;
+    min-height: 1470px;
+    padding: 20px;
+    background-color: #303a70;
+    color: white;
+}
+.nr .f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    background-color: #00bcd405;
+}
+.nr .f h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 33px;
+}
+.i {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 135px;
+    margin-top: 55px;
+}
+.gh img {
+    width: 385px;
+    height: 230px;
+    border-radius: 22px;
+    transition: all 0.5s 0.1s ease;
+}
+.gh img:hover {
+    transform: scale(1.02);
+}
+.ooo {
+    margin-left: 0;
+}
+
+/* ==========================================================================
+   ===== CONTACT (FOOTER) SECTION =====
+   ========================================================================== */
+.conta {
+    height: 250px;
+    padding: 20px;
+    background-color: #27336ee6;
+    color: white;
+}
+.conta .ac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    background-color: #00bcd405;
+}
+.conta .ac h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 33px;
+}
+.conta .wa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.wa a {
+    color: #1fb9ff;
+    font-size: 20px;
+    margin: 6px;
+    transition: all 0.5s 0.1s ease;
+}
+.wa a:hover {
+    transform: scale(1.2);
+}
+
+/* ==========================================================================
+   ===== MEDIA QUERIES (RESPONSIVE FIXES) =====
+   ========================================================================== */
+@media (max-width: 767px) {
+    /* ضبط الارتفاع التلقائي لمنع قص العناصر أو تداخلها */
+    .ho, .ca, .nr, .home {
+        height: auto;
+        min-height: auto;
+        padding: 40px 15px;
+    }
+
+    /* هيدر التنقل */
+    .head {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .ho .head img {
+        width: 150px;
+        height: auto;
+    }
+    .con {
+        padding-right: 0;
+        width: 100%;
+    }
+    .con ul {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .con ul li a {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    /* النص الترحيبي وصورة البطل */
+    .tx {
+        flex-direction: column-reverse; /* الصورة بالأعلى والنص بالأسفل */
+        margin-top: 30px;
+        gap: 30px;
+        align-items: center;
+    }
+    .tx p {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .tx p button {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+        margin: 20px auto 0 auto;
+        display: block;
+    }
+    .tx .m {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tx .m img {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        margin: 0;
+    }
+
+    /* الخط الفاصل الملون */
+    .ii {
+        width: 80%;
+        margin: 40px auto 0 auto;
+    }
+
+    /* قسم الكرتون الرئيسي */
+    .ca .a h1 {
+        font-size: 28px;
+    }
+    .b p {
+        padding: 15px 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .c {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        gap: 20px;
+    }
+    .d {
+        padding-left: 0;
+        padding-top: 0;
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.03);
+        padding: 15px;
+        border-radius: 22px;
+    }
+    .c .d img {
+        width: 100%;
+        height: auto;
+    }
+    .c p {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 13px;
+    }
+    .d a {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .oo {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* قسم الإصدارات الجديدة */
+    .nr .f h1 {
+        font-size: 28px;
+    }
+    .i {
+        padding-left: 0;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 25px;
+    }
+    .gh {
+        width: 45%; /* عرض صورتين بكل سطر على الموبايل */
+    }
+    .gh img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+    }
+    .ooo {
+        margin-left: 0;
+    }
+
+    /* الفوتر ووسائل التواصل الاجتماعي */
+    .conta {
+        height: auto;
+        padding: 30px 15px;
+    }
+    .conta .ac h1 {
+        font-size: 26px;
+    }
+    .conta .wa {
+        padding-top: 15px;
+    }
+    .wa a {
+        font-size: 24px;
+        margin: 0 12px;
+    }
+}
